@@ -1,0 +1,34 @@
+<svg id="background" class="background">
+  
+  <svg x="6"   y="12" width="48" height="48" fill="blue">
+    <text id="sessions" x="0" y="50%">0</text>
+  </svg>
+  
+  <text id="timer" x="50%" y="50%">0</text>
+  
+  <use id="buttonStart" href="#combo-button-lower-right" fill="fb-red">
+    <set href="combo-button-icon" attributeName="href" to="images/play.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="images/play_press.png"/>
+    <set href="combo-button-stroke" attributeName="display" to="inline"/>
+  </use>
+  
+  <use id="buttonPause" href="#combo-button-lower-right" fill="fb-red">
+    <set href="combo-button-icon" attributeName="href" to="images/pause.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="images/pause_press.png"/>
+    <set href="combo-button-stroke" attributeName="display" to="inline"/>
+  </use>
+  
+  <use id="buttonSkip" href="#combo-button-upper-right" fill="fb-white">
+    <set href="combo-button-icon" attributeName="href" to="images/skip.png"/>
+  </use>
+  
+  <use id="buttonReset" href="#combo-button-upper-right" fill="fb-white">
+    <set href="combo-button-icon" attributeName="href" to="images/reset.png"/>
+  </use>
+  
+  <svg x="6"   y=" 100% - 48 - 12" width="48" height="48" fill="white">
+    <image id="iconBreak"x="0" y="0" width="48" height="48" href="images/snooze.png" />
+  </svg>
+  
+  
+</svg>

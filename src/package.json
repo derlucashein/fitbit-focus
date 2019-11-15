@@ -1,0 +1,33 @@
+{
+  "fitbit": {
+    "appUUID": "334e228b-3821-47a0-a5ee-8efec0644b86",
+    "appType": "app",
+    "appDisplayName": "FOCUS",
+    "iconFile": "resources/images/icon.png",
+    "wipeColor": "#b8fc68",
+    "requestedPermissions": [
+      "run_background"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "FOCUS"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "^4.0.1"
+  },
+  "dependencies": {
+    "@fitbit/sdk-cli": "^1.7.0"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}
