@@ -13,7 +13,7 @@ export default class FileHelper {
                 "pomodoroInMinutes": 25,
                 "shortBreakInMinutes": 5,
                 "longBreakInMinutes": 15,
-                "color": "tomato"
+                "color": "#b8fc68"
             });
         }
         
